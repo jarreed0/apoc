@@ -1,0 +1,74 @@
+[x] object struct
+[x] load player sprite
+[x] draw player on screen
+[x] walk
+[ ] player art
+[ ] animate walk
+[ ] display fps
+[ ] set fps
+[ ] screen scroll
+[ ] gun
+[ ] create obj with name
+[ ] fix header/cpp files to be in right order
+[ ] point towards mouse
+[ ] cursor
+[ ] shoot
+[ ] fullscreen, windowed toggle
+[ ] animate cursor
+[ ] melee sway towards mouse
+[ ] melee attack
+[ ] buildings
+[ ] collision
+[ ] zombies
+[ ] zombie attack
+[ ] zombies walk toward player
+[ ] player health
+[ ] zombie health
+[ ] knockback
+[ ] blood splats
+[ ] footprints? mud, water
+[ ] waves
+[ ] zombie traits
+[ ] zombie drops
+[ ] xp and levels
+[ ] upgrades
+[ ] chest/bench
+[ ] pause menu
+[ ] weapon swap
+[ ] upgrade weapons
+[ ] save
+[ ] load
+[ ] wear on melee weapons
+[ ] reload weapons
+[ ] custom clothes
+[ ] sound effects
+[ ] map
+[ ] vehicles
+[ ] spawns
+[ ] vehicle upgrades
+[ ] npcs
+[ ] dialogue
+[ ] diff language option
+[ ] diff zombies (small/fast, big/slow/strong, spitters, blind/strong)
+[ ] stores
+[ ] missions/quest
+[ ] pets?
+[ ] daily objectives
+[ ] base camp
+[ ] base camp upgrades
+[ ] base camp inventory
+[ ] new biomes, buildings, etc
+[ ] weather system
+[ ] food system?
+[ ] hats/mask
+[ ] weather/clothing system?
+[ ] explosives, grenades, traps, barrels, cars, throwables
+[ ] highlight things
+[ ] player stats
+[ ] level maker
+[ ] story
+[ ] online?
+
+https://www.kickstarter.com/projects/2awesomestudio/ak-xolotl-top-down-shooter-gone-roguelite/description
+https://www.kickstarter.com/projects/rocketcat/death-road-to-canada-permadeath-road-trip-simulato/description
+
