@@ -29,13 +29,13 @@ void input() {
 	//player movement
 	if(keystates[SDL_SCANCODE_W]) move(&player, 0, -1);
 	if(keystates[SDL_SCANCODE_S]) move(&player, 0, 1);
-	if(keystates[SDL_SCANCODE_A]) move(&player, -1, 0);
-	if(keystates[SDL_SCANCODE_D]) move(&player, 1, 0);
+	if(keystates[SDL_SCANCODE_A]) { move(&player, -1, 0); player.flipH = true; }
+	if(keystates[SDL_SCANCODE_D]) { move(&player, 1, 0); player.flipH = false; }
 }
 
 void init() {
 	cursor = createObj("assets/images/cursor.png", {0,0,40,40}, {0,0,10,10});
-	player = createEnt("assets/images/player.png", {0,0,10,10}, {0,0,10,10}, 100, 100);
+	player = createEnt("assets/images/player.png", {0,0,60,60}, {0,0,20,20}, 100, 100);
 }
 
 int main() {
@@ -43,7 +43,7 @@ int main() {
 	sdl("Game", SCREENWIDTH, SCREENHEIGHT);
         SDL_SetWindowFullscreen(window, SDL_WINDOW_FULLSCREEN_DESKTOP);
 	SDL_ShowCursor(0);
-	bkg = {0,0,0,255};
+	bkg = {143,155,252,255};
 	loadFont("assets/fonts/Peepo.ttf", 16, {100, 200, 200, 255});
 
 	init();

@@ -2,7 +2,8 @@
 [x] load player sprite
 [x] draw player on screen
 [x] walk
-[ ] player art
+[x] player art
+[x] flip based on direction
 [ ] animate walk
 [ ] display fps
 [ ] set fps
@@ -10,6 +11,7 @@
 [ ] gun
 [ ] create obj with name
 [ ] fix header/cpp files to be in right order
+[ ] change color of picture, alpha
 [ ] point towards mouse
 [ ] cursor
 [ ] shoot
